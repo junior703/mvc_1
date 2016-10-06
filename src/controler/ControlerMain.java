@@ -49,6 +49,11 @@ initView();
         this.viewMain.revalidate();
         this.viewMain.repaint();
     }
+    public void jmiM(){
+        this.viewMain.setContentPane(viewMessage);
+        this.viewMain.revalidate();
+        this.viewMain.repaint();
+    }
    public void initView(){
         this.viewMain.setTitle("MDI");
         this.viewMain.setLocationRelativeTo(null);
